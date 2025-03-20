@@ -28,17 +28,32 @@ Use the following code to generate synthetic cell layouts for the BRCA-M2C tests
 ```
 python3 generate_layout_brca.py
 ```
+After running it, the results are structured as follows:
+```
+/path/to/results/%Y-%M-%D/%H-%M-%S
+  img/
+  npy/
+  cell_counts.json
+```
 
 
 # Evaluation
-
+For the evaluation, you need to firstly set the paths to the reference and synthetic layouts, and then run:
+```
+cd /path/to/TopoCellGen/evaluate
+python3 evaluate_BRCA.py
+```
+For the TopoFD evaluation, you can run:
+```
+python3 eval_TopoFD.py
+```
 
 # Qualitative Results
 <p align="center">
   <img src="./assets/qualitative_results.png" alt="drawing", width="850"/>
 </p>
 
-# Topological Frechet Distance
+# Topological Fréchet Distance
 <p align="center">
   <img src="./assets/TopoFD_pipeline.png" alt="drawing", width="850"/>
 </p>
