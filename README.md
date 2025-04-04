@@ -1,4 +1,4 @@
-## <p align="center">[[CVPR 2025] TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model](https://arxiv.org/abs/2412.06011)</p>
+## <p align="center">[[CVPR 2025 (Oral)] TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model](https://arxiv.org/abs/2412.06011)</p>
 
 **<p align="center">Meilong Xu<sup>1</sup>, Saumya Gupta<sup>1</sup>, Xiaoling Hu<sup>2</sup>, Chen Li<sup>1</sup>, Shahira Abousamra<sup>3</sup>, <br /> Dimitris Samaras<sup>1</sup>, Prateek Prasanna<sup>1</sup>, Chao Chen<sup>1</sup></p>**
 
